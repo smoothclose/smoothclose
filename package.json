@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "version": "0.0.0",
+    "name": "smoothclose",
+    "description": "Monorepo for SmoothClose",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/smoothclose/smoothclose.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "smoothclose"
+    ],
+    "packageManager": "pnpm@8.12.0",
+    "engines": {
+        "node": ">=18"
+    }
+}
