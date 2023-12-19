@@ -1,0 +1,17 @@
+# Should generally keep in sync with .prettierignore
+
+# workspace + lock files
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# dependencies
+**/node_modules
+
+# environent variables
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+
