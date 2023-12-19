@@ -8,9 +8,9 @@ Add `@smoothclose/typsecript-config` as a devDependency in the workspaces packag
 
 ```json
 {
-	"devDependencies": {
-		"@smoothclose/typescript-config": "workspace:*"
-	}
+  "devDependencies": {
+    "@smoothclose/typescript-config": "workspace:*"
+  }
 }
 ```
 
@@ -20,8 +20,8 @@ Add `@smoothclose/typsecript-config` as a devDependency in the workspaces packag
 
 ```json
 {
-	"extends": "@smoothclose/typescript-config/base.json",
-	"include": ["**/*.ts"],
-	"exclude": ["node_modules"]
+  "extends": "@smoothclose/typescript-config/base.json",
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
 }
 ```
