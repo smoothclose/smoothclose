@@ -8,7 +8,9 @@
         "url": "git+https://github.com/smoothclose/smoothclose.git"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "turbo run build",
+        "dev": "turbo run dev",
+        "lint": "turbo run lint"
     },
     "keywords": [
         "smoothclose"
