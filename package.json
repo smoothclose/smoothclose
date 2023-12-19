@@ -11,7 +11,8 @@
         "build": "turbo run build",
         "dev": "turbo run dev",
         "format": "turbo run format",
-        "lint": "turbo run lint"
+        "lint": "turbo run lint",
+        "typecheck": "turbo run typecheck"
     },
     "keywords": [
         "smoothclose"
