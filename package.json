@@ -10,6 +10,7 @@
     "scripts": {
         "build": "turbo run build",
         "dev": "turbo run dev",
+        "format": "turbo run format",
         "lint": "turbo run lint"
     },
     "keywords": [
@@ -20,6 +21,8 @@
         "node": ">=18"
     },
     "devDependencies": {
+        "eslint": "^8.56.0",
+        "prettier": "^3.1.1",
         "turbo": "^1.11.2"
     }
 }

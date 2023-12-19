@@ -1,0 +1,18 @@
+#self
+.prettierignore
+
+#workspace + lock files
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+#config files
+
+#dependencies
+**/node_modules
+
+#env files
+.env
+.env.*
+!.env.example
+
+#build directories
