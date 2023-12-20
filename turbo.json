@@ -7,10 +7,11 @@
             ],
             "outputs": []
         },
-        "lint": {},
         "dev": {
             "cache": false,
             "persistent": true
-        }
+        },
+        "test": {},
+        "lint": {}
     }
 }
