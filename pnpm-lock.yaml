@@ -23,6 +23,9 @@ importers:
       '@playwright/test':
         specifier: ^1.28.1
         version: 1.40.1
+      '@smoothclose/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/config-eslint
       '@smoothclose/typescript-config':
         specifier: workspace:*
         version: link:../../packages/config-typescript
