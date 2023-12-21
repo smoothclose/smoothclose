@@ -15,3 +15,5 @@ pnpm-workspace.yaml
 # misc
 .DS_Store
 
+# tests
+**/coverage/**

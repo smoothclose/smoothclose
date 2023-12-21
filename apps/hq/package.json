@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "vite dev",
         "build": "vite build",
-        "lint": "eslint .",
+        "lint": "eslint . --ignore-path ../../.eslintignore",
         "preview": "vite preview",
         "test": "npm run test:integration && npm run test:unit",
         "test:integration": "playwright test",
