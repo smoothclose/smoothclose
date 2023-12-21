@@ -8,7 +8,7 @@
         "url": "git+https://github.com/smoothclose/smoothclose.git"
     },
     "scripts": {
-        "build": "turbo run build",
+        "build": "turbo run build --cache-dir=.turbo",
         "dev": "turbo run dev",
         "format": "prettier --plugin-search-dir . --write .",
         "lint": "turbo run lint",
