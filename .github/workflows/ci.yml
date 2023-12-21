@@ -55,7 +55,7 @@ jobs:
         run: pnpm lint
 
       - name: Install Playwright Browsers
-        run: microsoft/playwright-github-action@v1
+        run: pnpm playwright install --with-dep
 
       - name: Test
         run: pnpm test
