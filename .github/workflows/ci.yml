@@ -55,7 +55,7 @@ jobs:
         run: pnpm lint
 
       - name: Install Playwright Browsers
-        run: npx playwright install
+        run: 'cd apps/hq && npx playwright install --with-deps'
 
       - name: Test
         run: pnpm test
