@@ -54,6 +54,9 @@ jobs:
       - name: Lint
         run: pnpm lint
 
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
       - name: Test
         run: pnpm test
 
