@@ -1,26 +1,22 @@
 {
-    "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "Base",
-    "compilerOptions": {
-        "allowJs": true,
-        "checkJs": true,
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "skipLibCheck": true,
-        "target": "es2022",
-        "verbatimModuleSyntax": true,
-        "resolveJsonModule": true,
-        "moduleDetection": "force",
-        "module": "ESNext",
-        "moduleResolution": "bundler",
-        "noEmit": true,
-        "strict": true,
-        "noUncheckedIndexedAccess": true,
-        "lib": [
-            "es2022"
-        ]
-    },
-    "exclude": [
-        "node_modules"
-    ]
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Base",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"target": "es2022",
+		"verbatimModuleSyntax": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"lib": ["es2022"]
+	},
+	"exclude": ["node_modules"]
 }

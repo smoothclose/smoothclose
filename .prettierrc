@@ -2,5 +2,20 @@
     "useTabs": true,
     "singleQuote": true,
     "trailingComma": "none",
-    "printWidth": 80
+    "printWidth": 80,
+    "semi": false,
+    "tabWidth": 2,
+    "overrides": [
+        {
+            "files": [
+                "README.md",
+                "*.yml",
+                "*.yaml"
+            ],
+            "options": {
+                "useTabs": false,
+                "tabWidth": 2
+            }
+        }
+    ]
 }

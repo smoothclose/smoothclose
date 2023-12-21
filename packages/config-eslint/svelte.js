@@ -32,4 +32,4 @@ module.exports = {
 		// Allow empty files
 		'unicorn/no-empty-file': 'off'
 	}
-};
+}

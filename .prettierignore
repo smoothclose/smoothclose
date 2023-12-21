@@ -1,18 +1,28 @@
 #self
 .prettierignore
 
+
+# builds
+.svelte-kit/
+.vercel/
+dist/
+
 #workspace + lock files
 pnpm-lock.yaml
 pnpm-workspace.yaml
 
-#config files
+# config files
+package.json
+turbo.json
+vercel.json
 
 #dependencies
-**/node_modules
+node_modules/
 
 #env files
 .env
 .env.*
 !.env.example
 
-#build directories
+# tests
+coverage/
